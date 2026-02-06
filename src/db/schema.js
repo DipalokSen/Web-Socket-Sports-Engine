@@ -44,5 +44,3 @@ export const commentary = pgTable('commentary', {
   tags: jsonb('tags'),
   createdAt: timestamp('created_at').defaultNow().notNull(),
 });
-import { pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
-
